@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trabalho/Anotações.md",
+                "file": "Trabalho/Notas/Departamento Pessoal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Anotações"
+              "title": "Departamento Pessoal"
             }
           }
         ]
@@ -200,9 +200,10 @@
   },
   "active": "e72f5d7e8372bcf3",
   "lastOpenFiles": [
-    "Trabalho/Departamento Pessoal.md",
+    "Trabalho/Notas/Anotações.md",
+    "Trabalho/Notas",
+    "Trabalho/Notas/Departamento Pessoal.md",
     "Trabalho/Logins.md",
-    "Trabalho/Anotações.md",
     "Trabalho/Tarefas.md",
     "Recording 20250827113233.m4a",
     "Recording 20250827113127.m4a",

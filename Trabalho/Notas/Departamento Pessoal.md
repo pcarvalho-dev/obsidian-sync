@@ -1,4 +1,3 @@
-Separar empregados de prolabore (tipo_epr 1 = empregado, 2 = pró labore)
 Não contabilizar dados do usuário nas telas a partir da data que ele foi demitido
 (Para considerar um usuário inativo, ele precisa estar inativo)
 Quantidade de vidas vai filtrar tipo_epr = 1
