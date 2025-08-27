@@ -6,6 +6,7 @@ kanban-plugin: board
 
 ## A fazer
 
+- [ ] Filtrar usuários pela data de demissão nas telas
 
 
 ## Em andamento
