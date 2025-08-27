@@ -163,8 +163,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -193,14 +193,10 @@
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Criar nova base": false,
+      "audio-recorder:Começar/parar a gravação de áudio": false,
       "obsidian-kanban:Criar um novo quadro": false,
       "obsidian-git:Open Git source control": false,
-      "omnisearch:Omnisearch": false,
-      "excel:Create Excel File": false,
-      "translate:Open translation view": false,
-      "whisper:Open recording controls": false,
-      "widgets:Add widget": false,
-      "audio-recorder:Começar/parar a gravação de áudio": false
+      "omnisearch:Omnisearch": false
     }
   },
   "active": "8ae3cf7572252875",
