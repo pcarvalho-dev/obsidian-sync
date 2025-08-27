@@ -4,33 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "cb384d65fffd192a",
+        "id": "a78b67c3ca25a7af",
         "type": "tabs",
         "children": [
           {
-            "id": "c2ac5bc8b819b53d",
+            "id": "7df49b84c9e2a45f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nova aba"
-            }
-          }
-        ]
-      },
-      {
-        "id": "e895f44e63aadc3a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "717df40b6c99d38a",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nova aba"
+              "type": "kanban",
+              "state": {
+                "file": "Trabalho/Tarefas.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "Tarefas"
             }
           }
         ]
@@ -209,9 +203,12 @@
       "audio-recorder:Começar/parar a gravação de áudio": false
     }
   },
-  "active": "e72f5d7e8372bcf3",
+  "active": "7df49b84c9e2a45f",
   "lastOpenFiles": [
-    "Bem-vindo.md",
-    "README.md"
+    "Trabalho/Sem título.canvas",
+    "Trabalho/Tarefas.md",
+    "README.md",
+    "Trabalho",
+    "Bem-vindo.md"
   ]
 }
