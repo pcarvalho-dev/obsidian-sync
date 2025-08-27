@@ -1,0 +1,9 @@
+# Obsidian
+.obsidian/cache/
+.obsidian/plugins/*/node_modules/
+.obsidian/plugins/*/dist/
+# Sistema
+.DS_Store
+Thumbs.db
+# Arquivos temporários
+*.tmp
