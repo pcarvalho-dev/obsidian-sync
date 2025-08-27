@@ -4,53 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "4d74f48a1ee28782",
+        "id": "20a6134be6e57b6f",
         "type": "tabs",
         "children": [
           {
-            "id": "49d7bd2776aaab4c",
+            "id": "9ba4a93b5d3cdc66",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Trabalho/Notas/Departamento Pessoal.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Departamento Pessoal"
-            }
-          },
-          {
-            "id": "d4a229be3bb99192",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "conflict-files-obsidian-git.md",
-                "bFile": "conflict-files-obsidian-git.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: conflict-files-obsidian-git"
-            }
-          },
-          {
-            "id": "5e76a6562ab236df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Nova aba"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -186,8 +153,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -205,15 +172,10 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "excel:Create Excel File": false,
-      "translate:Open translation view": false,
-      "whisper:Open recording controls": false,
-      "widgets:Add widget": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
       "canvas:Criar novo canvas": false,
@@ -221,23 +183,25 @@
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Criar nova base": false,
-      "audio-recorder:Começar/parar a gravação de áudio": false,
       "obsidian-kanban:Criar um novo quadro": false,
       "obsidian-git:Open Git source control": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "excel:Create Excel File": false,
+      "translate:Open translation view": false,
+      "whisper:Open recording controls": false,
+      "widgets:Add widget": false,
+      "audio-recorder:Começar/parar a gravação de áudio": false
     }
   },
-  "active": "e72f5d7e8372bcf3",
+  "active": "9ba4a93b5d3cdc66",
   "lastOpenFiles": [
-    "Trabalho/Notas/Anotações.md",
-    "Trabalho/Notas",
     "Trabalho/Notas/Departamento Pessoal.md",
-    "Trabalho/Logins.md",
+    "Trabalho/Notas/Anotações.md",
     "Trabalho/Tarefas.md",
-    "Recording 20250827113233.m4a",
-    "Recording 20250827113127.m4a",
-    "Trabalho/Excel 2025-08-27 11.30.00.sheet.md",
-    "Kanban sem título.md",
+    "Trabalho/Logins.md",
+    "conflict-files-obsidian-git.md",
+    "Trabalho/Notas",
+    "Pessoal",
     "Filtrar usuários pela data de demissão nas telas.md",
     "Trabalho/Filtrar usuários pela data de demissão nas telas.md",
     "Trabalho/Sem título.canvas",
