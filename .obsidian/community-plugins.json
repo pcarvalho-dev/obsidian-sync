@@ -1,5 +1,15 @@
 [
   "calendar",
   "obsidian-kanban",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-icon-folder",
+  "omnisearch",
+  "editing-toolbar",
+  "obsidian-mind-map",
+  "obsidian-emoji-toolbar",
+  "drawio-obsidian",
+  "excel",
+  "translate",
+  "whisper",
+  "widgets"
 ]
