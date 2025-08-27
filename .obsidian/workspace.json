@@ -11,12 +11,14 @@
             "id": "49d7bd2776aaab4c",
             "type": "leaf",
             "state": {
-              "type": "audio",
+              "type": "markdown",
               "state": {
-                "file": "Recording 20250827113233.m4a"
+                "file": "Trabalho/Anotações.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-audio",
-              "title": "Recording 20250827113233"
+              "icon": "lucide-file",
+              "title": "Anotações"
             }
           }
         ]
@@ -196,12 +198,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e72f5d7e8372bcf3",
+  "active": "49d7bd2776aaab4c",
   "lastOpenFiles": [
+    "Trabalho/Tarefas.md",
     "Recording 20250827113233.m4a",
     "Recording 20250827113127.m4a",
     "Trabalho/Anotações.md",
-    "Trabalho/Tarefas.md",
     "Trabalho/Excel 2025-08-27 11.30.00.sheet.md",
     "Kanban sem título.md",
     "Filtrar usuários pela data de demissão nas telas.md",
