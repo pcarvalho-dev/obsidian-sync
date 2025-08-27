@@ -7,21 +7,19 @@ kanban-plugin: board
 ## A fazer
 
 - [ ] Filtrar usuários pela data de demissão nas telas
-
-
-## Em andamento
-
+- [ ] Automatizar recebimendo de tarefas por email, digisac e onvio
 
 
 ## Concluídas
 
 **Concluído**
+- [x] Adicionar quantidade de pro labore no card e listagem do DP
 
 
 
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false]}
+{"kanban-plugin":"board","list-collapse":[false,false]}
 ```
 %%

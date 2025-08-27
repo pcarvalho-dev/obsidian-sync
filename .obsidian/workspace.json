@@ -4,30 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "6b6404bc213c5a0e",
+        "id": "4d74f48a1ee28782",
         "type": "tabs",
         "children": [
           {
-            "id": "8ae3cf7572252875",
+            "id": "49d7bd2776aaab4c",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Trabalho/Tarefas.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "Trabalho/Notas/Departamento Pessoal.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "Tarefas"
+              "icon": "lucide-file",
+              "title": "Departamento Pessoal"
+            }
+          },
+          {
+            "id": "d4a229be3bb99192",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "conflict-files-obsidian-git.md",
+                "bFile": "conflict-files-obsidian-git.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: conflict-files-obsidian-git"
+            }
+          },
+          {
+            "id": "5e76a6562ab236df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -163,8 +186,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -182,10 +205,15 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "excel:Create Excel File": false,
+      "translate:Open translation view": false,
+      "whisper:Open recording controls": false,
+      "widgets:Add widget": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
       "canvas:Criar novo canvas": false,
@@ -193,20 +221,23 @@
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Criar nova base": false,
+      "audio-recorder:Começar/parar a gravação de áudio": false,
       "obsidian-kanban:Criar um novo quadro": false,
       "obsidian-git:Open Git source control": false,
-      "omnisearch:Omnisearch": false,
-      "excel:Create Excel File": false,
-      "translate:Open translation view": false,
-      "whisper:Open recording controls": false,
-      "widgets:Add widget": false,
-      "audio-recorder:Começar/parar a gravação de áudio": false
+      "omnisearch:Omnisearch": false
     }
   },
   "active": "e72f5d7e8372bcf3",
   "lastOpenFiles": [
-    "Pessoal",
+    "Trabalho/Notas/Anotações.md",
+    "Trabalho/Notas",
+    "Trabalho/Notas/Departamento Pessoal.md",
+    "Trabalho/Logins.md",
     "Trabalho/Tarefas.md",
+    "Recording 20250827113233.m4a",
+    "Recording 20250827113127.m4a",
+    "Trabalho/Excel 2025-08-27 11.30.00.sheet.md",
+    "Kanban sem título.md",
     "Filtrar usuários pela data de demissão nas telas.md",
     "Trabalho/Filtrar usuários pela data de demissão nas telas.md",
     "Trabalho/Sem título.canvas",

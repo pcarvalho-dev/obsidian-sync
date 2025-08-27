@@ -6,7 +6,9 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "🏠",
+      "LiPersonStanding",
+      "LiStickyNote",
+      "LiLogIn",
       "LiListTodo",
       "👜"
     ],
@@ -34,5 +36,7 @@
   },
   "Trabalho": "👜",
   "Trabalho/Tarefas.md": "LiListTodo",
-  "Pessoal": "🏠"
+  "Trabalho/Logins.md": "LiLogIn",
+  "Trabalho/Notas/Anotações.md": "LiStickyNote",
+  "Trabalho/Notas/Departamento Pessoal.md": "LiPersonStanding"
 }
