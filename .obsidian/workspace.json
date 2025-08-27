@@ -186,6 +186,10 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "excel:Create Excel File": false,
+      "translate:Open translation view": false,
+      "whisper:Open recording controls": false,
+      "widgets:Add widget": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
       "canvas:Criar novo canvas": false,
