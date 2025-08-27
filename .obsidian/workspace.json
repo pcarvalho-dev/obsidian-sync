@@ -11,20 +11,14 @@
             "id": "8ae3cf7572252875",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Trabalho/Tarefas.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "Trabalho/Anotações.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "Tarefas"
+              "icon": "lucide-file",
+              "title": "Anotações"
             }
           }
         ]
