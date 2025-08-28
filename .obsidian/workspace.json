@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trabalho/Notas/Bot Tarefas DigiSac.md",
+                "file": "Trabalho/Notas/Anotações.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bot Tarefas DigiSac"
+              "title": "Anotações"
             }
           }
         ]
@@ -147,13 +147,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trabalho/Notas/Bot Tarefas DigiSac.md",
+                "file": "Trabalho/Notas/Anotações.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Bot Tarefas DigiSac"
+              "title": "Sumário de Anotações"
             }
           },
           {
