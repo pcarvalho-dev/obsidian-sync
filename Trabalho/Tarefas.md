@@ -10,6 +10,10 @@ kanban-plugin: board
 - [ ] Automatizar recebimendo de tarefas por email, digisac e onvio
 
 
+## Em andamento
+
+
+
 ## Concluídas
 
 **Concluído**
@@ -20,6 +24,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false]}
+{"kanban-plugin":"board","list-collapse":[false,false,false]}
 ```
 %%
