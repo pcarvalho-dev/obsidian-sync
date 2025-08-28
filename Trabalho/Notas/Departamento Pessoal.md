@@ -3,3 +3,6 @@ Não contabilizar dados do usuário nas telas a partir da data que ele foi demit
 pegar a quantidade de pro labore pelo cargo
 
 se gerar o dctfweb e não tiver o fgts
+
+
+no digisac, salvar o pdf da conversa para visualizar no kanban, e o resumo da ia vai ser o texto da tarefa
