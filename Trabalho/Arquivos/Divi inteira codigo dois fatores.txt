@@ -1,0 +1,93 @@
+<section class="c402abd7b _prompt-box-outer cc5e649f4">
+    <div class="c6b9fe256 cacdcf05a">
+      <div class="c99c79f05">
+        <header class="c3cb62c36 c82d562a9">
+          <div title="Thomson Reuters" id="custom-prompt-logo" style="width: auto !important; height: 60px !important; position: static !important; margin: auto !important; padding: 0 !important; background-color: transparent !important; background-position: center !important; background-size: contain !important; background-repeat: no-repeat !important"></div>
+        
+          <img class="c2dd842ff c6ff6c343" id="prompt-logo-center" src="https://app-data.gcs.trstatic.net/emcm-ui/bundle-profile/bundle-profile-assets/img/tr-logo-rebrand.svg" alt="Thomson Reuters">
+        
+          
+            <h1 class="c450edce3 c6f2a911f">Verificar sua identidade</h1>
+          
+        
+          <div class="cb7b81377 ce0932424">
+            <p class="c140864aa cfb8d00c6" id="aria-description-text">Enviamos um e-mail com o código para</p>
+          </div>
+        </header>
+      
+        <div class="cb5b4690a cde87a02d">
+          
+        
+          <div class="cd3c7b66d c5bd92500">
+            <div class="c2c3c78a1">
+              <div>
+                
+                  <div class="cd01a11c2 c0831a4f7 cbec4965e cdb585524 cf95ec77e c8b5a4446">
+                    <span class="ulp-authenticator-selector-text">diog*@rede********************</span>
+                  </div>
+                
+              </div>
+            
+              
+                <form method="POST" class="c2b7a65c8 c5d68b367" data-form-primary="true">
+                  <input type="hidden" name="state" value="hKFo2SAzWUVRN3lHclhvd042SW5Gd1NkMXZPQzEyRm5NWHMtcaFusG1mYS1hdXRoZW50aWNhdGWjdGlk2SBHeXV0MGpGWlF0UVVyZlBMUk9GSmJnNVFVTWh5RVo1WqNjaWTZIEdCVXBQcE9Vd0JmNHBoU3Y5ZUlxRjJ4aThMU1Bza3RL">
+                
+                  <div class="cd3c7b66d c5bd92500">
+                    <div class="c2c3c78a1">
+                      
+                        <div class="input-wrapper _input-wrapper">
+                          <div class="c5c7ba581 c58caa64c text cad493fe6 c7e9c0fcf" data-action-text="" data-alternate-action-text="">
+                            <label class="c076e90d7 no-js cc46f3401 cd0d72d70" for="code">
+                              Inserir o código
+                            </label>
+                          
+                            <input class="input c56014a0b cad74833c" name="code" id="code" type="text" value="" required="" autocomplete="off" autocapitalize="none" spellcheck="false" autofocus="">
+                          
+                            <div class="c076e90d7 js-required cc46f3401 cd0d72d70" data-dynamic-label-for="code" aria-hidden="true">
+                              Inserir o código*
+                            </div>
+                          </div>
+                        
+                          
+                        </div>
+                      
+                    </div>
+                  </div>
+                
+                  
+                
+                  <div class="cc757f1b2">
+                    
+                      <button type="submit" name="action" value="default" class="cb6278e00 cc7ddc15d c517489a5 cef594b28 cf128671d" data-action-button-primary="true">Continuar</button>
+                    
+                  </div>
+                </form>
+              
+            
+              <div class="c8e3dd0bd c06b8978a">Não recebeu um e-mail? 
+                <form method="POST" class="ca79636a5 ulp-action-form-resend-code">
+                  <input type="hidden" name="state" value="hKFo2SAzWUVRN3lHclhvd042SW5Gd1NkMXZPQzEyRm5NWHMtcaFusG1mYS1hdXRoZW50aWNhdGWjdGlk2SBHeXV0MGpGWlF0UVVyZlBMUk9GSmJnNVFVTWh5RVo1WqNjaWTZIEdCVXBQcE9Vd0JmNHBoU3Y5ZUlxRjJ4aThMU1Bza3RL">
+                
+                  
+                
+                  <button type="submit" name="action" aria-label="" value="resend-code" class="cb12833e3 _link-resend-code c7c2d7b15">Reenviar</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        
+          
+            <div class="ulp-alternate-action center _alternate-action ">
+              <form method="POST" class="ca79636a5 ulp-action-form-pick-authenticator">
+                <input type="hidden" name="state" value="hKFo2SAzWUVRN3lHclhvd042SW5Gd1NkMXZPQzEyRm5NWHMtcaFusG1mYS1hdXRoZW50aWNhdGWjdGlk2SBHeXV0MGpGWlF0UVVyZlBMUk9GSmJnNVFVTWh5RVo1WqNjaWTZIEdCVXBQcE9Vd0JmNHBoU3Y5ZUlxRjJ4aThMU1Bza3RL">
+              
+                <button type="submit" name="action" aria-label="" value="pick-authenticator" class="cb12833e3 ca11d1d03 c7c2d7b15">Tentar outro método</button>
+              </form>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  
+    
+  </section>

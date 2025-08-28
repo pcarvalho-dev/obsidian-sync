@@ -1,0 +1,61 @@
+<div class="c99c79f05 c6164c764">
+        <header class="c28abca41 c6f8c97ce">
+          <h1 class="screen-reader-only">Selecione um método para verificar sua identidade</h1>
+        
+          <div class="c4684ff1d c6f2a911f cfd22a099">
+            
+              <div class="c13bb2f76__container">
+                <span class="ulp-header-integrated-no-back-title" aria-hidden="true">Selecione um método para verificar sua identidade</span>
+              </div>
+            
+          </div>
+        </header>
+      
+        <div class="cb5b4690a cde87a02d">
+          <ul class="c8add0504 c7bb2ebcb" id="with-selector-list">
+            
+              <li class="c848a5e6c  _selector-item-phone">
+                <form method="POST" class="ca79636a5 cee0e2203 ulp-action-form-phone">
+                  <input type="hidden" name="state" value="hKFo2SAzWUVRN3lHclhvd042SW5Gd1NkMXZPQzEyRm5NWHMtcaFusG1mYS1hdXRoZW50aWNhdGWjdGlk2SBHeXV0MGpGWlF0UVVyZlBMUk9GSmJnNVFVTWh5RVo1WqNjaWTZIEdCVXBQcE9Vd0JmNHBoU3Y5ZUlxRjJ4aThMU1Bza3RL">
+                
+                  <button type="submit" name="action" aria-label="SMS/Telefonema (Recomendado)" value="phone::0" class="cb12833e3 _link-phone c55db4df2 cee0e2203 ca31bb25b c93dabb4c">
+                    <span class="cb94748f9 c9f6ccaf6 cfd9f608d"></span>
+                  
+                    <span class="c0ec8aeca cc759f0f2">SMS/Telefonema (Recomendado)</span>
+                  
+                    <span class="cb94748f9 c377dce2e c6843b428"></span>
+                  </button>
+                </form>
+              </li>
+            
+              <li class="c848a5e6c  _selector-item-recovery-code">
+                <form method="POST" class="ca79636a5 cee0e2203 ulp-action-form-recovery-code">
+                  <input type="hidden" name="state" value="hKFo2SAzWUVRN3lHclhvd042SW5Gd1NkMXZPQzEyRm5NWHMtcaFusG1mYS1hdXRoZW50aWNhdGWjdGlk2SBHeXV0MGpGWlF0UVVyZlBMUk9GSmJnNVFVTWh5RVo1WqNjaWTZIEdCVXBQcE9Vd0JmNHBoU3Y5ZUlxRjJ4aThMU1Bza3RL">
+                
+                  <button type="submit" name="action" aria-label="Código de recuperação" value="recovery-code::1" class="cb12833e3 cae609d8b c55db4df2 cee0e2203 ca31bb25b c93dabb4c">
+                    <span class="cb94748f9 ceefcdc52 cfd9f608d"></span>
+                  
+                    <span class="c0ec8aeca cc759f0f2">Código de recuperação</span>
+                  
+                    <span class="cb94748f9 c377dce2e c6843b428"></span>
+                  </button>
+                </form>
+              </li>
+            
+              <li class="c848a5e6c  _selector-item-email">
+                <form method="POST" class="ca79636a5 cee0e2203 ulp-action-form-email">
+                  <input type="hidden" name="state" value="hKFo2SAzWUVRN3lHclhvd042SW5Gd1NkMXZPQzEyRm5NWHMtcaFusG1mYS1hdXRoZW50aWNhdGWjdGlk2SBHeXV0MGpGWlF0UVVyZlBMUk9GSmJnNVFVTWh5RVo1WqNjaWTZIEdCVXBQcE9Vd0JmNHBoU3Y5ZUlxRjJ4aThMU1Bza3RL">
+                
+                  <button type="submit" name="action" aria-label="E-mail" value="email::2" class="cb12833e3 c078b3361 c55db4df2 cee0e2203 ca31bb25b c93dabb4c">
+                    <span class="cb94748f9 cf9057cae cfd9f608d"></span>
+                  
+                    <span class="c0ec8aeca cc759f0f2">E-mail</span>
+                  
+                    <span class="cb94748f9 c377dce2e c6843b428"></span>
+                  </button>
+                </form>
+              </li>
+            
+          </ul>
+        </div>
+      </div>

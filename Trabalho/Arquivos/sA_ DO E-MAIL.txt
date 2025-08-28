@@ -1,0 +1,7 @@
+<button type="submit" name="action" aria-label="E-mail" value="email::2" class="cb12833e3 c078b3361 c55db4df2 cee0e2203 ca31bb25b c93dabb4c">
+                    <span class="cb94748f9 cf9057cae cfd9f608d"></span>
+                  
+                    <span class="c0ec8aeca cc759f0f2">E-mail</span>
+                  
+                    <span class="cb94748f9 c377dce2e c6843b428"></span>
+                  </button>

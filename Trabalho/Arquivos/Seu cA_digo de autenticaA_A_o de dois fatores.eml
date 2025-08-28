@@ -1,0 +1,194 @@
+Return-Path: <msprvs1=20335O7BXrhXF=bounces-270826-57@sp-bounce.thomsonreuters.com>
+Delivered-To: diogo@redeespecialistas.com.br
+Received: from mta-70-5-252.sparkpostmail.com (mta-70-5-252.sparkpostmail.com [156.70.5.252])
+	by uk-fast-smtpin9.hostinger.io (mx.hostinger.com) with ESMTPS id 4cCTm46cYLz6V76x
+	for <diogo@redeespecialistas.com.br>; Thu, 28 Aug 2025 18:03:32 +0000 (UTC)
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=redeespecialistas.com.br; s=hostingermail-a; t=1756404213;
+	h=from:from:reply-to:subject:subject:date:date:message-id:message-id:
+	 to:to:cc:mime-version:mime-version:content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:list-id:
+	 list-unsubscribe:list-unsubscribe-post:dkim-signature;
+	bh=WZz7hn+CsRWPntbwrrvepngVvM5TjmCXNtnD/Z9S/zM=;
+	b=kt+P1UjbUdEDYh8C8UTqvJenTzeoOJvoSt6eNgHM3Y2vSH9iBONq2HrlPZnz/m9YnOUHSH
+	VxPEk5CtFDk4dK9oSCHn0Qf6iwgREpR7rVm/GooQbPudVCTkiG3ckGeA+v3EdME89XKK7W
+	yBwtHiCkI2QsAGHWlRimoS4H1l3aGJP37GShsqLHBi5Ch/tojha0d0Rkoh1zq8qpMbZjp8
+	0z3tycO2RqXMUbnCPynk3ofU1N/mrXQHuDSTqRq47BT+pHJhewVlk4Aw++26RC/Xw//I+X
+	YWwmQOTPqKdr0oYJL9OhQ/kGNCCKTr1dTa6q++C0xzCGiJSeSUElfqlqu2BBDg==
+ARC-Authentication-Results: i=1;
+	uk-fast-smtpin9.hostinger.io;
+	dkim=pass header.d=thomsonreuters.com header.s=scph2048 header.b=kjCICjO8;
+	dmarc=pass (policy=reject) header.from=thomsonreuters.com;
+	spf=pass (uk-fast-smtpin9.hostinger.io: domain of "msprvs1=20335O7BXrhXF=bounces-270826-57@sp-bounce.thomsonreuters.com" designates 156.70.5.252 as permitted sender) smtp.mailfrom="msprvs1=20335O7BXrhXF=bounces-270826-57@sp-bounce.thomsonreuters.com"
+ARC-Seal: i=1; s=hostingermail-a; d=redeespecialistas.com.br; t=1756404213;
+	a=rsa-sha256; cv=none;
+	b=skN+Wd9lx/bjfIygymGTb9CQiD+8Ml8/ZjkOB8qb2ykM8FcnvZ0Q/tMWMMoLvlWAYxNHjg
+	Jg7Xl+05beJkiQ+uEBnUEhWvAronUbiDbG9R8vvmArZ+uRiDoEucgWF8HVI3xtvvTUNEfu
+	eCnZTsxllF4VxTHLtfKcWRX1yJPfXDlf7dtpyDdc1BuPQvZx31c8RxmTJes3o9KmO5X9Zg
+	Su42mOREBGoxYEjx/iaTxcq7LVV51HwfDGQIaVWS9ROQDlKpX6IO/eZ6T8XYSJduVTIofc
+	jXf0C0ZxTade4j3VglAOUt5a8XnhSsp0JXqYM6Hph19MxRSr6zm9h6pzvF6+VQ==
+X-MSFBL: P2WVrq2U0GwJLuEJ0dVM6n2yhgJLkcklM4ppwGGCEFA=|eyJtZXNzYWdlX2lkIjo
+	iNjhhZmYyOTliMDY4M2NmODQ1NWIiLCJjdXN0b21lcl9pZCI6IjI3MDgyNiIsInI
+	iOiJkaW9nb0ByZWRlZXNwZWNpYWxpc3Rhcy5jb20uYnIiLCJ0ZW5hbnRfaWQiOiJ
+	zcGMiLCJzdWJhY2NvdW50X2lkIjoiNTcifQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=thomsonreuters.com;
+	s=scph2048; t=1756404210; i=@thomsonreuters.com;
+	bh=WZz7hn+CsRWPntbwrrvepngVvM5TjmCXNtnD/Z9S/zM=;
+	h=Content-Type:To:Message-ID:Date:Subject:From:List-Unsubscribe:
+	 List-Unsubscribe-Post:From:To:Cc:Subject;
+	b=kjCICjO86sDkQR+YiUYw+/ShFaCxiSzDJqpJazdIfinn4hGbCctk95dXjetx+889i
+	 lHuqR1jPA1/NeqDpzlw+fn3gT867ezJMBvcPS0+nui8GLxLr6WS7mfwX3CPRIuaw1V
+	 CSx5qB9dPJLo0sft1ITRwTAjdTNd8sso0hXBrNttM3z4KwZAQh1ny2IavZ0oNUxYzK
+	 6yDOWnLSRjYpFPxmK0lIOGbkftlU+qDWXpRu+kHgUKOX3A8RFbSN0tNJCznAKlNkHV
+	 UH3ZqPRRzQv+K6B8WMIfsK7Nbn+Hg0sGEGhLBTP6BtocoXeJep4DQ/jTRs0lILZJON
+	 fCYLYQ4R6hplA==
+Received: from [10.90.25.178] ([10.90.25.178])
+	by i-0616fcc3a32762174.mta1vrest.sd.prd.sparkpost (ecelerity 5.1.0.74589 r(msys-ecelerity:tags/5.1.0.6)) with REST
+	id B5/54-12326-2F990B86; Thu, 28 Aug 2025 18:03:30 +0000
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+To: diogo@redeespecialistas.com.br
+Message-ID: <B5.54.12326.2F990B86@i-0616fcc3a32762174.mta1vrest.sd.prd.sparkpost>
+Date: Thu, 28 Aug 2025 18:03:30 +0000
+MIME-Version: 1.0
+Subject: =?utf-8?B?U2V1IGPDs2RpZ28gZGUgYXV0ZW50aWNhw6fDo28gZGUgZG9pcyBm?=
+	=?utf-8?B?YXRvcmVz?=
+From: "Thomson Reuters" <access.info@thomsonreuters.com>
+List-Unsubscribe: <mailto:unsubscribe@unsub.spmta.com?subject=unsubscribe:cQIgCHH1ovnbzTdIU8SJ1x3IKvYdh4v7wMmyAnp7vZY~|eyAicmNwdF90byI6ICJkaW9nb0ByZWRlZXNwZWNpYWxpc3Rhcy5jb20uYnIiLCAidGVuYW50X2lkIjogInNwYyIsICJjdXN0b21lcl9pZCI6ICIyNzA4MjYiLCAibWVzc2FnZV9pZCI6ICI2OGFmZjI5OWIwNjgzY2Y4NDU1YiIsICJzdWJhY2NvdW50X2lkIjogIjU3IiB9>,<https://unsubscribe.spmta.com/u/bE5xtLAeRV7rJAI-QGOl6Q~~/AAQh6hA~/iPc2YkehGRWoyU5VCGFJYVRoEwe6hQvqcEXU8F0i9JGMi0BNd4Ab7Y7ibSXMNnOpfU1cs1cesm3S-hPfz-gRLw~~>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Id: <spc.270826.57.sparkpostmail.com>
+
+<!DOCTYPE html xmlns=3D'http://www.w3.org/1999/xhtml'>=0A<html>=0A=0A<head>=
+=0A=09=0A=09=0A=09=0A=09<title>Seu c=C3=B3digo de autentica=C3=A7=C3=A3o de=
+ dois fatores</title>=0A=09=0A=09<meta name=3D"robots" content=3D"noindex, =
+nofollow">=0A=09<meta charset=3D"UTF-8" />=0A=09<meta name=3D"viewport" con=
+tent=3D"width=3Ddevice-width, initial-scale=3D1.0" />=0A=09<!--[if !mso]> -=
+->=0A=09<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge" />=0A=09=
+<!--<![endif]-->=0A=09<style>=0A=09=09body,=0A=09=09table,=0A=09=09p {=0A=
+=09=09=09font-family: "Source Sans Pro", "Arial", "sans-serif";=0A=09=09=09=
+line-height: 18.0pt;=0A=09=09=09font-weight: normal;=0A=09=09=09padding: 0;=
+=0A=09=09=09margin: 0;=0A=09=09=09color: black;=0A=09=09=09padding-bottom: =
+20px;=0A=09=09=09text-align: left;=0A=09=09=09margin-left: 20px;=0A=09=09=
+=09margin-right: 20px;=0A=09=09}=0A=0A=09=09h1,=0A=09=09h2 {=0A=09=09=09col=
+or: #123021;=0A=09=09=09font-family: "Clario", "Arial", sans-serif;=0A=09=
+=09=09font-size: 27pt;=0A=09=09=09font-style: normal;=0A=09=09=09font-weigh=
+t: 700;=0A=09=09=09line-height: normal;=0A=09=09=09text-align: center;=0A=
+=09=09}=0A=0A=09=09.tra_footertable,=0A=09=09.tra_footerp {=0A=09=09=09font=
+-size: 12pt;=0A=09=09=09line-height: 13.5pt;=0A=09=09=09color: #000000;=0A=
+=09=09=09margin: 0;=0A=09=09=09background-color: #e5e5e5;=0A=09=09}=0A=0A=
+=09=09.tra_footerborders {=0A=09=09=09width: 61.1%;=0A=09=09}=0A=0A=09=09.t=
+ra_paddedtable p {=0A=09=09=09font-size: 14pt;=0A=09=09=09line-height: 21pt=
+;=0A=09=09=09padding: 20px 0;=0A=09=09}=0A=09</style>=0A</head>=0A=0A<body>=
+=0D=0A<div style=3D"color:transparent;visibility:hidden;opacity:0;font-size=
+:0px;border:0;max-height:1px;width:1px;margin:0px;padding:0px;border-width:=
+0px!important;display:none!important;line-height:0px!important;"><img borde=
+r=3D"0" width=3D"1" height=3D"1" src=3D"https://sp-tracking-secure.thomsonr=
+euters.com/q/-frgzpxySs0GT5_01lLY1g~~/AAQh6hA~/BPmWYkgaNuCqPTe8T6DaowuapWEz=
+vd50D8kh5L4MyY2tgrpWylpOl7DdQlSTX7wngUmtzCOVhYgVtGqNODTOyg~~" alt=3D""/></d=
+iv>=0D=0A=0A=09<div class=3D"tra_email">=0A=09=09<div align=3D"center">=0A=
+=09=09=09<table class=3D"tra_toptable" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">=0A=09=09=09=09<tbody>=0A=09=09=09=09=09<tr>=0A=09=09=09=09=09=
+=09<td width=3D"900">=0A=09=09=09=09=09=09=09<table class=3D"tra_bannertabl=
+e" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%">=0A=09=
+=09=09=09=09=09=09=09<tbody>=0A=09=09=09=09=09=09=09=09=09<tr>=0A=09=09=09=
+=09=09=09=09=09=09=09<td width=3D"100%" valign=3D"top" display=3D"table-cel=
+l">=0A=09=09=09=09=09=09=09=09=09=09=09<img style=3D"width:100%; height:142=
+px" height=3D"142" width=3D"900" src=3D"https://app-data.gcs.trstatic.net/e=
+mcm-ui/bundle-profile/bundle-profile-assets/img/241106-emailHeader.png"=0A=
+=09=09=09=09=09=09=09=09=09=09=09=09 border=3D"0">=0A=09=09=09=09=09=09=09=
+=09=09=09</td>=0A=09=09=09=09=09=09=09=09=09</tr>=0A=09=09=09=09=09=09=09=
+=09</tbody>=0A=09=09=09=09=09=09=09</table>=0A=09=09=09=09=09=09</td>=0A=09=
+=09=09=09=09</tr>=0A=09=09=09=09=09<tr>=0A=09=09=09=09=09=09<td width=3D"90=
+0">=0A=09=09=09=09=09=09=09<table class=3D"tra_bodytable" border=3D"0" cell=
+spacing=3D"20" cellpadding=3D"20">=0A=09=09=09=09=09=09=09=09<tbody>=0A=09=
+=09=09=09=09=09=09=09=09<tr>=0A=09=09=09=09=09=09=09=09=09=09<td valign=3D"=
+top" display=3D"table-cell">=0A=09=09=09=09=09=09=09=09=09=09=09<table clas=
+s=3D"tra_paddedtable" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">=0A=
+=09=09=09=09=09=09=09=09=09=09=09=09<tr>=0A=09=09=09=09=09=09=09=09=09=09=
+=09=09=09<td>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09<!-- LOCALIZATION=
+: Email Content -->=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09<h1>=0A=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=0A=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09Seu c=C3=B3digo de autentica=C3=A7=C3=A3o de dois fatores=0A=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=0A=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09</h1>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09</td>=0A=09=
+=09=09=09=09=09=09=09=09=09=09=09</tr>=0A=09=09=09=09=09=09=09=09=09=09=09=
+=09<tr>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09<td>=0A=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09<p>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09Ol=C3=A1=0A=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09Diogo Assis Granja,=0A=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09</p>=
+=0A=09=09=09=09=09=09=09=09=09=09=09=09=09</td>=0A=09=09=09=09=09=09=09=09=
+=09=09=09=09</tr>=0A=09=09=09=09=09=09=09=09=09=09=09=09<tr>=0A=09=09=09=09=
+=09=09=09=09=09=09=09=09=09<td>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<p>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=0A=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09Aqui est=C3=A1 seu c=C3=B3digo de autentica=C3=
+=A7=C3=A3o de dois fatores=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09p=
+ara Onvio:=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=0A=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09</p>=0A=09=09=09=09=09=09=09=09=09=09=09=09=
+=09</td>=0A=09=09=09=09=09=09=09=09=09=09=09=09</tr>=0A=09=09=09=09=09=09=
+=09=09=09=09=09=09<tr>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09<td>=0A=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09<p>=0A=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09359797=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09</p>=0A=
+=09=09=09=09=09=09=09=09=09=09=09=09=09</td>=0A=09=09=09=09=09=09=09=09=09=
+=09=09=09</tr>=0A=09=09=09=09=09=09=09=09=09=09=09=09<tr>=0A=09=09=09=09=09=
+=09=09=09=09=09=09=09=09<td>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p=
+>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=0A=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09Insira este c=C3=B3digo no seu software ou disposit=
+ivo para =0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09Conclua sua autent=
+ica=C3=A7=C3=A3o de dois fatores.=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09</p>=0A=09=09=09=09=09=
+=09=09=09=09=09=09=09=09</td>=0A=09=09=09=09=09=09=09=09=09=09=09=09</tr>=
+=0A=09=09=09=09=09=09=09=09=09=09=09=09<tr>=0A=09=09=09=09=09=09=09=09=09=
+=09=09=09=09<td>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p>=0A=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=0A=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09Obrigado,<br>Thomson Reuters=0A=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09</p>=0A=09=09=
+=09=09=09=09=09=09=09=09=09=09=09</td>=0A=09=09=09=09=09=09=09=09=09=09=09=
+=09</tr>=0A=09=09=09=09=09=09=09=09=09=09=09=09<!-- End Localization -->=0A=
+=09=09=09=09=09=09=09=09=09=09=09</table>=0A=09=09=09=09=09=09=09=09=09=09<=
+/td>=0A=09=09=09=09=09=09=09=09=09</tr>=0A=09=09=09=09=09=09=09=09</tbody>=
+=0A=09=09=09=09=09=09=09</table>=0A=09=09=09=09=09=09</td>=0A=09=09=09=09=
+=09</tr>=0A=09=09=09=09=09<tr>=0A=09=09=09=09=09=09<td width=3D"900">=0A=09=
+=09=09=09=09=09=09<table class=3D"tra_footertable" style=3D"margin-left: 20=
+px;" cellspacing=3D"0" cellpadding=3D"0" width=3D"900">=0A=09=09=09=09=09=
+=09=09=09<tbody>=0A=09=09=09=09=09=09=09=09=09<tr>=0A=09=09=09=09=09=09=09=
+=09=09=09<td width=3D"61%" valign=3D"middle" class=3D"tra_footerborders"=0A=
+=09=09=09=09=09=09=09=09=09=09=09style=3D"padding: 20px 0 20px 40px;">=0A=
+=09=09=09=09=09=09=09=09=09=09=09=0A=09=09=09=09=09=09=09=09=09=09=09<a hre=
+f=3D"https://www.thomsonreuters.com.br/pt.html">=0A=09=09=09=09=09=09=09=09=
+=09=09=09=0A=09=09=09=09=09=09=09=09=09=09=09=09<img style=3D"width:30%;hei=
+ght:auto;"=0A=09=09=09=09=09=09=09=09=09=09=09=09=09src=3D"https://app-data=
+.gcs.trstatic.net/emcm-ui/bundle-profile/bundle-profile-assets/img/tr-logo=
+-rebrand-email-footer.png"=0A=09=09=09=09=09=09=09=09=09=09=09=09=09border=
+=3D"0">=0A=09=09=09=09=09=09=09=09=09=09=09</a>=0A=09=09=09=09=09=09=09=09=
+=09=09=09<p class=3D"tra_footerp">&copy; <span id=3D"copyrightyear">2024</s=
+pan> Thomson=0A=09=09=09=09=09=09=09=09=09=09=09=09Reuters |=0A=09=09=09=09=
+=09=09=09=09=09=09=09=09<!-- LOCALIZATION: TR Privacy Statement page URL --=
+>=0A=0A=09=09=09=09=09=09=09=09=09=09=09=09=0A=09=09=09=09=09=09=09=09=09=
+=09=09=09<a=0A=09=09=09=09=09=09=09=09=09=09=09=09=09href=3D"https://www.th=
+omsonreuters.com/pt/declaracao-de-privacidade.html">Pol=C3=ADtica=0A=09=09=
+=09=09=09=09=09=09=09=09=09=09=09de=0A=09=09=09=09=09=09=09=09=09=09=09=09=
+=09privacidade</a>=0A=09=09=09=09=09=09=09=09=09=09=09=09=0A=09=09=09=09=09=
+=09=09=09=09=09=09=09<!-- End Localization -->=0A=09=09=09=09=09=09=09=09=
+=09=09=09</p>=0A=09=09=09=09=09=09=09=09=09=09=09<p class=3D"tra_footerp">=
+=0A=09=09=09=09=09=09=09=09=09=09=09=09<!-- LOCALIZATION: TR Home page URL =
+-->=0A=09=09=09=09=09=09=09=09=09=09=09=09=0A=09=09=09=09=09=09=09=09=09=09=
+=09=09<a href=3D"https://www.thomsonreuters.com.br/pt.html">=0A=09=09=09=09=
+=09=09=09=09=09=09=09=09=0A=09=09=09=09=09=09=09=09=09=09=09=09THOMSON REUT=
+ERS</a>=0A=09=09=09=09=09=09=09=09=09=09=09</p>=0A=09=09=09=09=09=09=09=09=
+=09=09=09<!-- End Localization -->=0A=09=09=09=09=09=09=09=09=09=09</td>=0A=
+=09=09=09=09=09=09=09=09=09=09<td width=3D"39%" valign=3D"middle" height=3D=
+"60pt" align=3D"right"=0A=09=09=09=09=09=09=09=09=09=09=09class=3D"tra_foot=
+erborders" style=3D"padding: 0 40px 0 0;">=0A=09=09=09=09=09=09=09=09=09=09=
+=09<p class=3D"tra_footerp">=0A=09=09=09=09=09=09=09=09=09=09=09=09=0A=09=
+=09=09=09=09=09=09=09=09=09=09=09Este e-mail foi enviado para:=0A=09=09=09=
+=09=09=09=09=09=09=09=09=09=0A=09=09=09=09=09=09=09=09=09=09=09=09diogo@red=
+eespecialistas.com.br=0A=09=09=09=09=09=09=09=09=09=09=09</p>=0A=09=09=09=
+=09=09=09=09=09=09=09</td>=0A=09=09=09=09=09=09=09=09=09</tr>=0A=09=09=09=
+=09=09=09=09=09</tbody>=0A=09=09=09=09=09=09=09</table>=0A=09=09=09=09=09=
+=09</td>=0A=09=09=09=09=09</tr>=0A=09=09=09=09</tbody>=0A=09=09=09</table>=
+=0A=09=09</div>=0A=09</div>=0A=0D=0A<img border=3D"0" width=3D"1" height=3D=
+"1" alt=3D"" src=3D"https://sp-tracking-secure.thomsonreuters.com/q/phkfCS3=
+GZtOsKo1-phiEYA~~/AAQh6hA~/ch7j5nK9OJ1q28gVtxWfT_NcrVIpSn_F518YzN0SP0FY-yM2=
+6Yp2uZQiu8Um7QJSkeyNH3BIHdFXdhLcvYSkgQ~~">=0D=0A</body>=0A=0A</html>
+

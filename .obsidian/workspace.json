@@ -4,26 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "487bdc870e54d638",
+        "id": "a308e74c5f4f61fe",
         "type": "tabs",
         "children": [
           {
-            "id": "23dfe76cfb39b4d4",
+            "id": "cc28c23daf365067",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "bases",
               "state": {
-                "file": "Trabalho/Tarefas.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false
-                  ]
-                }
+                "file": "Trabalho/Arquivos/Bot Onvio.base",
+                "viewName": "Tabela"
               },
-              "icon": "lucide-trello",
-              "title": "Tarefas"
+              "icon": "lucide-table",
+              "title": "Bot Onvio"
             }
           }
         ]
@@ -152,13 +146,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trabalho/Tarefas.md",
+                "file": "Trabalho/Arquivos/Bot Onvio.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Tarefas"
+              "title": "Sumário de Bot Onvio"
             }
           },
           {
@@ -202,26 +196,31 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "23dfe76cfb39b4d4",
+  "active": "cc28c23daf365067",
   "lastOpenFiles": [
-    "Trabalho/Notas/Departamento Pessoal.md",
-    "Pessoal",
     "Trabalho/Notas/Anotações.md",
+    "Trabalho/Arquivos/Bot Onvio.base",
+    "Trabalho/Arquivos/Campo de Digitar o Codigo de dois fatores.txt",
+    "Trabalho/Arquivos/sA_ DO E-MAIL.txt",
+    "Trabalho/Arquivos/div inteira.txt",
+    "Trabalho/Arquivos/Divi inteira codigo dois fatores.txt",
+    "Trabalho/Arquivos/Seu cA_digo de autenticaA_A_o de dois fatores.eml",
+    "Trabalho/Arquivos/BotA_o Continuar.txt",
+    "Trabalho/Arquivos/Bot Onvio.base",
     "Trabalho/Tarefas.md",
     "Trabalho/Logins.md",
+    "Untitled.md",
+    "Trabalho/Notas/Seu cA_digo de autenticaA_A_o de dois fatores.eml",
+    "Trabalho/Notas/BotA_o Continuar.txt",
+    "Trabalho/Notas/Departamento Pessoal.md",
     "Excel 2025-08-28 08.57.38.sheet.md",
     "conflict-files-obsidian-git.md",
-    "Recording 20250827115746.m4a",
-    "Trabalho/Notas",
-    "Recording 20250827113233.m4a",
-    "Recording 20250827113127.m4a",
     "Trabalho/Excel 2025-08-27 11.30.00.sheet.md",
     "Kanban sem título.md",
     "Filtrar usuários pela data de demissão nas telas.md",
     "Trabalho/Filtrar usuários pela data de demissão nas telas.md",
     "Trabalho/Sem título.canvas",
     "README.md",
-    "Trabalho",
     "Bem-vindo.md"
   ]
 }
