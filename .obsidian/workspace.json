@@ -11,13 +11,14 @@
             "id": "cc28c23daf365067",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Trabalho/Arquivos/Bot Onvio.base",
-                "viewName": "Tabela"
+                "file": "Trabalho/Notas/Bot Tarefas DigiSac.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Bot Onvio"
+              "icon": "lucide-file",
+              "title": "Bot Tarefas DigiSac"
             }
           }
         ]
@@ -146,13 +147,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trabalho/Arquivos/Bot Onvio.base",
+                "file": "Trabalho/Notas/Bot Tarefas DigiSac.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Bot Onvio"
+              "title": "Sumário de Bot Tarefas DigiSac"
             }
           },
           {
@@ -198,6 +199,7 @@
   },
   "active": "cc28c23daf365067",
   "lastOpenFiles": [
+    "Trabalho/Notas/Bot Tarefas DigiSac.md",
     "Trabalho/Notas/Anotações.md",
     "Trabalho/Arquivos/Bot Onvio.base",
     "Trabalho/Arquivos/Campo de Digitar o Codigo de dois fatores.txt",
@@ -206,7 +208,6 @@
     "Trabalho/Arquivos/Divi inteira codigo dois fatores.txt",
     "Trabalho/Arquivos/Seu cA_digo de autenticaA_A_o de dois fatores.eml",
     "Trabalho/Arquivos/BotA_o Continuar.txt",
-    "Trabalho/Arquivos/Bot Onvio.base",
     "Trabalho/Tarefas.md",
     "Trabalho/Logins.md",
     "Untitled.md",
