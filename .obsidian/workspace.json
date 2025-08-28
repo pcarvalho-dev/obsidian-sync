@@ -122,6 +122,41 @@
             }
           },
           {
+            "id": "e44a2893e376154e",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "416f2e8643fbf94a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "18b459e544b03d67",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Trabalho/Notas/Departamento Pessoal.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de Departamento Pessoal"
+            }
+          },
+          {
             "id": "2e4c534f11112dd1",
             "type": "leaf",
             "state": {
@@ -135,44 +170,9 @@
               "icon": "lucide-tags",
               "title": "Tags"
             }
-          },
-          {
-            "id": "18b459e544b03d67",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Bem-vindo.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Sumário de Bem-vindo"
-            }
-          },
-          {
-            "id": "e44a2893e376154e",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
-            }
-          },
-          {
-            "id": "416f2e8643fbf94a",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -197,8 +197,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "23dfe76cfb39b4d4",
+  "active": "e72f5d7e8372bcf3",
   "lastOpenFiles": [
+    "Pessoal",
     "Trabalho/Notas/Anotações.md",
     "Trabalho/Notas/Departamento Pessoal.md",
     "Trabalho/Tarefas.md",
