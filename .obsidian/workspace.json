@@ -4,20 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "20a6134be6e57b6f",
+        "id": "a308e74c5f4f61fe",
         "type": "tabs",
         "children": [
           {
-            "id": "9ba4a93b5d3cdc66",
+            "id": "cc28c23daf365067",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Trabalho/Arquivos/Bot Onvio.base",
-                "viewName": "Tabela"
+                "file": "Trabalho/Logins.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Bot Onvio"
+              "icon": "lucide-file",
+              "title": "Logins"
             }
           }
         ]
@@ -121,36 +122,6 @@
             }
           },
           {
-            "id": "2e4c534f11112dd1",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "18b459e544b03d67",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Bem-vindo.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Sumário de Bem-vindo"
-            }
-          },
-          {
             "id": "e44a2893e376154e",
             "type": "leaf",
             "state": {
@@ -169,9 +140,39 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "18b459e544b03d67",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Trabalho/Notas/Anotações.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de Anotações"
+            }
+          },
+          {
+            "id": "2e4c534f11112dd1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -179,6 +180,10 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "excel:Create Excel File": false,
+      "translate:Open translation view": false,
+      "whisper:Open recording controls": false,
+      "widgets:Add widget": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
       "canvas:Criar novo canvas": false,
@@ -186,34 +191,33 @@
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Criar nova base": false,
+      "audio-recorder:Começar/parar a gravação de áudio": false,
       "obsidian-kanban:Criar um novo quadro": false,
       "obsidian-git:Open Git source control": false,
-      "omnisearch:Omnisearch": false,
-      "excel:Create Excel File": false,
-      "translate:Open translation view": false,
-      "whisper:Open recording controls": false,
-      "widgets:Add widget": false,
-      "audio-recorder:Começar/parar a gravação de áudio": false
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "9ba4a93b5d3cdc66",
+  "active": "cc28c23daf365067",
   "lastOpenFiles": [
+    "Trabalho/Notas/Departamento Pessoal.md",
+    "Trabalho/Arquivos/Bot Onvio.base",
+    "Trabalho/Notas/Anotações.md",
+    "Trabalho/Notas/Bot Tarefas DigiSac.md",
     "Trabalho/Logins.md",
     "Trabalho/Tarefas.md",
-    "Trabalho/Notas/Departamento Pessoal.md",
-    "Trabalho/Notas/Bot Tarefas DigiSac.md",
-    "Trabalho/Arquivos/Divi inteira codigo dois fatores.txt",
-    "Trabalho/Arquivos/Seu cA_digo de autenticaA_A_o de dois fatores.eml",
+    "Trabalho/Arquivos/Campo de Digitar o Codigo de dois fatores.txt",
     "Trabalho/Arquivos/sA_ DO E-MAIL.txt",
     "Trabalho/Arquivos/div inteira.txt",
-    "Trabalho/Arquivos/Campo de Digitar o Codigo de dois fatores.txt",
+    "Trabalho/Arquivos/Divi inteira codigo dois fatores.txt",
+    "Trabalho/Arquivos/Seu cA_digo de autenticaA_A_o de dois fatores.eml",
     "Trabalho/Arquivos/BotA_o Continuar.txt",
-    "Trabalho/Arquivos/Bot Onvio.base",
-    "Trabalho/Arquivos",
-    "Trabalho/Notas/Anotações.md",
+    "Untitled.md",
+    "Trabalho/Notas/Seu cA_digo de autenticaA_A_o de dois fatores.eml",
+    "Trabalho/Notas/BotA_o Continuar.txt",
+    "Excel 2025-08-28 08.57.38.sheet.md",
     "conflict-files-obsidian-git.md",
-    "Trabalho/Notas",
-    "Pessoal",
+    "Trabalho/Excel 2025-08-27 11.30.00.sheet.md",
+    "Kanban sem título.md",
     "Filtrar usuários pela data de demissão nas telas.md",
     "Trabalho/Filtrar usuários pela data de demissão nas telas.md",
     "Trabalho/Sem título.canvas",

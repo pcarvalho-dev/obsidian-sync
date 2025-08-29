@@ -19,7 +19,7 @@
 	email = front@redeespecialistas.com
 	senha = Front@2131
 
-Banco Postgres
+**Banco Postgres:**
 	'pg_password': "Ci5ailahd9yahcoophaif3paingeviet",
 
 	'pg_host': "especialistas.czykqycouf7n.us-east-1.rds.amazonaws.com",
@@ -29,3 +29,7 @@ Banco Postgres
 	'pg_user': "administrador",
 
 	'pg_db': "especialistas"
+
+**Servidor:**
+	Desenvolvimento  
+	)_o`V)EMU{}?|1UbJuuv
