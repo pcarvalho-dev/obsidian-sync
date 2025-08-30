@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trabalho/Logins.md",
+                "file": "2025-08-29.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Logins"
+              "title": "2025-08-29"
             }
           }
         ]
@@ -132,16 +132,6 @@
             }
           },
           {
-            "id": "416f2e8643fbf94a",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
             "id": "18b459e544b03d67",
             "type": "leaf",
             "state": {
@@ -173,6 +163,22 @@
           }
         ],
         "currentTab": 2
+      },
+      {
+        "id": "c3a5daf258351cba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "416f2e8643fbf94a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -199,11 +205,12 @@
   },
   "active": "cc28c23daf365067",
   "lastOpenFiles": [
+    "Trabalho/Logins.md",
+    "2025-08-29.md",
     "Trabalho/Notas/Departamento Pessoal.md",
     "Trabalho/Arquivos/Bot Onvio.base",
     "Trabalho/Notas/Anotações.md",
     "Trabalho/Notas/Bot Tarefas DigiSac.md",
-    "Trabalho/Logins.md",
     "Trabalho/Tarefas.md",
     "Trabalho/Arquivos/Campo de Digitar o Codigo de dois fatores.txt",
     "Trabalho/Arquivos/sA_ DO E-MAIL.txt",
