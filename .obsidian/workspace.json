@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-09-01.md",
+                "file": "Trabalho/Logins.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-09-01"
+              "title": "Logins"
             }
           }
         ]
@@ -205,8 +205,8 @@
   },
   "active": "cc28c23daf365067",
   "lastOpenFiles": [
-    "Trabalho/Notas/Departamento Pessoal.md",
     "2025-09-01.md",
+    "Trabalho/Notas/Departamento Pessoal.md",
     "2025-08-29.md",
     "Trabalho/Logins.md",
     "Trabalho/Tarefas.md",
