@@ -11,19 +11,14 @@
             "id": "cc28c23daf365067",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Trabalho/Tarefas.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false
-                  ]
-                }
+                "file": "Trabalho/Notas/Departamento Pessoal.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "Tarefas"
+              "icon": "lucide-file",
+              "title": "Departamento Pessoal"
             }
           }
         ]
@@ -210,13 +205,13 @@
   },
   "active": "cc28c23daf365067",
   "lastOpenFiles": [
-    "2025-08-29.md",
     "Trabalho/Logins.md",
+    "Trabalho/Tarefas.md",
+    "2025-08-29.md",
     "Trabalho/Notas/Departamento Pessoal.md",
     "Trabalho/Arquivos/Bot Onvio.base",
     "Trabalho/Notas/Anotações.md",
     "Trabalho/Notas/Bot Tarefas DigiSac.md",
-    "Trabalho/Tarefas.md",
     "Trabalho/Arquivos/Campo de Digitar o Codigo de dois fatores.txt",
     "Trabalho/Arquivos/sA_ DO E-MAIL.txt",
     "Trabalho/Arquivos/div inteira.txt",
