@@ -17,7 +17,7 @@
 
 **Github Front:**
 	email = front@redeespecialistas.com
-	senha = Front@2131
+	senha = 3Xksd4k34!b?
 
 **Banco Postgres:**
 	'pg_password': "Ci5ailahd9yahcoophaif3paingeviet",
