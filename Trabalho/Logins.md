@@ -16,7 +16,7 @@
 	password = 8QW2uuIP
 
 **Github Front:**
-	email = front@redeespecialistas.com
+	email = front@redeespecialistas.com.br
 	senha = 3Xksd4k34!b?
 
 **Banco Postgres:**
