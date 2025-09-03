@@ -8,7 +8,7 @@
 	port = 2638
 	server = srvContabil
 	database = Contabil
-	userid = IND.EXTERNO
+	userid = IND.EXTERNO 
 	password = -EN`+UEvng2Q
 
 **Indicadores**
