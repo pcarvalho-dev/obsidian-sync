@@ -9,6 +9,7 @@ kanban-plugin: board
 - [ ] Filtrar usuários pela data de demissão nas telas
 - [ ] Automatizar recebimendo de tarefas por email, digisac e onvio
 - [ ] Precisa verificar se os cards de erro na dominio x sieg estão pegando apenas saidas ou entradas também
+- [ ] FIltrar por integração fiscal nas empresas
 
 
 ## Concluídas
