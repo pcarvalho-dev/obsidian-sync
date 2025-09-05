@@ -11,19 +11,14 @@
             "id": "cc28c23daf365067",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Trabalho/Tarefas.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false
-                  ]
-                }
+                "file": "2025-09-05.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "Tarefas"
+              "icon": "lucide-file",
+              "title": "2025-09-05"
             }
           }
         ]
@@ -210,6 +205,8 @@
   },
   "active": "cc28c23daf365067",
   "lastOpenFiles": [
+    "Trabalho/Tarefas.md",
+    "2025-09-05.md",
     "2025-09-04.md",
     "Trabalho/Logins.md",
     "Trabalho/Notas/Diárias/2025-08-29.md",
@@ -218,7 +215,6 @@
     "Trabalho/Notas/Diárias",
     "2025-09-02.md",
     "Trabalho/Notas/Anotações.md",
-    "Trabalho/Tarefas.md",
     "Trabalho/Notas/Departamento Pessoal.md",
     "Trabalho/Notas/Bot Tarefas DigiSac.md",
     "Trabalho/Arquivos/Bot Onvio.base",
